@@ -445,10 +445,10 @@ F 3 "" H 5050 1500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x04 J_IN_1
+L Screw_Terminal_1x04 J_OUT_1
 U 1 1 58EEFF7C
 P 1175 4700
-F 0 "J_IN_1" H 1175 5150 50  0000 C TNN
+F 0 "J_OUT_1" H 1175 5150 50  0000 C TNN
 F 1 "ST_1x04" V 1025 4700 50  0000 C TNN
 F 2 "w_conn_pt-1,5:pt_1,5-4-3,5-h" H 1175 4275 50  0001 C CNN
 F 3 "" H 1150 4900 50  0001 C CNN
@@ -456,10 +456,10 @@ F 3 "" H 1150 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x04 J_IN_2
+L Screw_Terminal_1x04 J_OUT_2
 U 1 1 58EF0EC1
 P 1175 5600
-F 0 "J_IN_2" H 1175 6050 50  0000 C TNN
+F 0 "J_OUT_2" H 1175 6050 50  0000 C TNN
 F 1 "ST_1x04" V 1025 5600 50  0000 C TNN
 F 2 "w_conn_pt-1,5:pt_1,5-4-3,5-h" H 1175 5175 50  0001 C CNN
 F 3 "" H 1150 5800 50  0001 C CNN
@@ -467,10 +467,10 @@ F 3 "" H 1150 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x04 J_IN_3
+L Screw_Terminal_1x04 J_OUT_3
 U 1 1 58EF0F3F
 P 1175 6500
-F 0 "J_IN_3" H 1175 6950 50  0000 C TNN
+F 0 "J_OUT_3" H 1175 6950 50  0000 C TNN
 F 1 "ST_1x04" V 1025 6500 50  0000 C TNN
 F 2 "w_conn_pt-1,5:pt_1,5-4-3,5-h" H 1175 6075 50  0001 C CNN
 F 3 "" H 1150 6700 50  0001 C CNN
@@ -478,10 +478,10 @@ F 3 "" H 1150 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x04 J_IN_4
+L Screw_Terminal_1x04 J_OUT_4
 U 1 1 58EF13AB
 P 1175 7375
-F 0 "J_IN_4" H 1175 7825 50  0000 C TNN
+F 0 "J_OUT_4" H 1175 7825 50  0000 C TNN
 F 1 "ST_1x04" V 1025 7375 50  0000 C TNN
 F 2 "w_conn_pt-1,5:pt_1,5-4-3,5-h" H 1175 6950 50  0001 C CNN
 F 3 "" H 1150 7575 50  0001 C CNN
@@ -500,17 +500,6 @@ F 3 "" H 1700 725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x12 J_OUT_2
-U 1 1 58F01EB1
-P 6350 2000
-F 0 "J_OUT_2" H 6350 3275 50  0000 C TNN
-F 1 "ST_1x12" V 6200 2000 50  0000 C TNN
-F 2 "w_conn_pt-1,5:pt_1,5-12-3,5-h" H 6350 1575 50  0001 C CNN
-F 3 "" H 6325 2200 50  0001 C CNN
-	1    6350 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5V #PWR016
 U 1 1 58F01ED5
 P 6875 750
@@ -525,17 +514,6 @@ NoConn ~ 8200 2475
 NoConn ~ 8200 2375
 NoConn ~ 8200 2275
 NoConn ~ 8200 2175
-$Comp
-L Screw_Terminal_1x15 J_IN_5
-U 1 1 58F030F1
-P 1175 2000
-F 0 "J_IN_5" H 1175 3250 50  0000 C TNN
-F 1 "ST_1x15" V 1025 2000 50  0000 C TNN
-F 2 "w_conn_pt-1,5:pt_1,5-15-3,5-h" H 1175 775 50  0001 C CNN
-F 3 "" H 1150 3000 50  0001 C CNN
-	1    1175 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L R_Network08 RN1
 U 1 1 58F1D7D5
@@ -1143,4 +1121,103 @@ Wire Wire Line
 	7600 5950 7875 5950
 Connection ~ 4025 6550
 Connection ~ 1575 7675
+$Comp
+L Screw_Terminal_1x03 J_OUT_5
+U 1 1 58FC9F82
+P 6350 1100
+F 0 "J_OUT_5" H 6150 1325 50  0000 C TNN
+F 1 "ST_1x03" V 6200 1000 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 775 50  0001 C CNN
+F 3 "" H 6325 1200 50  0001 C CNN
+	1    6350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_OUT_6
+U 1 1 58FCEC7F
+P 6350 1700
+F 0 "J_OUT_6" H 6150 1950 50  0000 C TNN
+F 1 "ST_1x03" V 6200 1600 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 1375 50  0001 C CNN
+F 3 "" H 6325 1800 50  0001 C CNN
+	1    6350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_OUT_7
+U 1 1 58FCF132
+P 6350 2300
+F 0 "J_OUT_7" H 6125 2550 50  0000 C TNN
+F 1 "ST_1x03" V 6200 2200 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 1975 50  0001 C CNN
+F 3 "" H 6325 2400 50  0001 C CNN
+	1    6350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_OUT_8
+U 1 1 58FCF72A
+P 6350 2900
+F 0 "J_OUT_8" H 6150 3150 50  0000 C TNN
+F 1 "ST_1x03" V 6200 2800 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 6350 2575 50  0001 C CNN
+F 3 "" H 6325 3000 50  0001 C CNN
+	1    6350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_1
+U 1 1 58FD9964
+P 1175 1100
+F 0 "J_IN_1" H 975 1325 50  0000 C TNN
+F 1 "ST_1x03" V 1025 1000 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 775 50  0001 C CNN
+F 3 "" H 1150 1200 50  0001 C CNN
+	1    1175 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_2
+U 1 1 58FD9ABF
+P 1175 1700
+F 0 "J_IN_2" H 975 1925 50  0000 C TNN
+F 1 "ST_1x03" V 1025 1600 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 1375 50  0001 C CNN
+F 3 "" H 1150 1800 50  0001 C CNN
+	1    1175 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_3
+U 1 1 58FD9B71
+P 1175 2300
+F 0 "J_IN_3" H 975 2525 50  0000 C TNN
+F 1 "ST_1x03" V 1025 2200 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 1975 50  0001 C CNN
+F 3 "" H 1150 2400 50  0001 C CNN
+	1    1175 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_4
+U 1 1 58FDA2FF
+P 1175 2900
+F 0 "J_IN_4" H 975 3125 50  0000 C TNN
+F 1 "ST_1x03" V 1025 2800 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 2575 50  0001 C CNN
+F 3 "" H 1150 3000 50  0001 C CNN
+	1    1175 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x03 J_IN_5
+U 1 1 58FDA39F
+P 1175 3500
+F 0 "J_IN_5" H 975 3725 50  0000 C TNN
+F 1 "ST_1x03" V 1025 3400 50  0000 C TNN
+F 2 "w_conn_pt-1,5:pt_1,5-3-3,5-h" H 1175 3175 50  0001 C CNN
+F 3 "" H 1150 3600 50  0001 C CNN
+	1    1175 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
