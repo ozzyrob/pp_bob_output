@@ -72,9 +72,8 @@
     (grid_origin 124.206 97.536)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010a0_ffffffff)
-      (usegerberextensions false)
-      (usegerberattributes true)
+      (layerselection 0x010f0_ffffffff)
+      (usegerberextensions true)
       (gerberprecision 5)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -96,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory /home/rmurphy/kicad_prj/pp_bob_output/gerber/))
   )
 
   (net 0 "")
