@@ -77,19 +77,19 @@ F 3 "" H 4825 6650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3125 5050 0    40   ~ 0
-IN-02
+OUT-02
 Text Label 3125 5250 0    40   ~ 0
-IN-04
+OUT-04
 Text Label 3125 5350 0    40   ~ 0
-IN-05
+OUT-05
 Text Label 3125 5450 0    40   ~ 0
-IN-06
+OUT-06
 Text Label 3125 5550 0    40   ~ 0
-IN-07
+OUT-07
 Text Label 3125 5650 0    40   ~ 0
-IN-08
+OUT-08
 Text Label 3125 5750 0    40   ~ 0
-IN-09
+OUT-09
 Text GLabel 5250 6050 2    50   Input ~ 0
 CHIP_ENABLE
 Text GLabel 5250 5050 2    50   Input ~ 0
@@ -625,7 +625,7 @@ F 3 "" H 8300 1625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3125 5150 0    40   ~ 0
-IN-03
+OUT-03
 Wire Wire Line
 	4725 5950 4825 5950
 Wire Wire Line

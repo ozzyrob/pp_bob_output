@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pp_bob_output-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -55,7 +56,7 @@ F 3 "" H 7200 5350 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74LS540 U1
+L 74LS540-RESCUE-pp_bob_output U1
 U 1 1 58DDB67C
 P 4025 5550
 F 0 "U1" H 4025 5350 50  0000 C CNN
